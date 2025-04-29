@@ -1,0 +1,48 @@
+/* Custom Theme Overrides */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+.navbar-custom {
+    background-color: #2C3E50 !important;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: #ecf0f1 !important;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #bdc3c7 !important;
+}
+
+.footer-custom {
+    background-color: #ecf0f1;
+    color: #2C3E50;
+    padding: 20px 0;
+}
+
+.footer-custom a {
+    color: #2C3E50;
+}
+
+.footer-custom a:hover {
+    color: #34495e;
+}
+
+.card.doctor-card {
+    border: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.btn-primary-custom {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-primary-custom:hover {
+    background-color: #219150;
+    border-color: #219150;
+}
